@@ -1,0 +1,3 @@
+{"commitInfo":{"timestamp":1653462742488,"operation":"UPDATE","operationParameters":{"predicate":"(product_id#780 = 00007)"},"readVersion":1,"isBlindAppend":false,"operationMetrics":{"numRemovedFiles":"1","numCopiedRows":"0","executionTimeMs":"1718","scanTimeMs":"1302","numAddedFiles":"1","numUpdatedRows":"1","rewriteTimeMs":"416"}}}
+{"remove":{"path":"part-00001-01d1d51e-6b89-4c09-a7f6-d76e40a1cbaf-c000.snappy.parquet","deletionTimestamp":1653462742071,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{},"size":1472}}
+{"add":{"path":"part-00000-560bbe29-9de9-44f7-832b-4f26226a67fc-c000.snappy.parquet","partitionValues":{},"size":1472,"modificationTime":1653462743000,"dataChange":true}}

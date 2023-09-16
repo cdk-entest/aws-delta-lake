@@ -1,0 +1,3 @@
+{"commitInfo":{"timestamp":1653462781039,"operation":"DELETE","operationParameters":{"predicate":"[\"(spark_catalog.delta_sql.products.`product_name` = 'Pen')\"]"},"readVersion":5,"isBlindAppend":false,"operationMetrics":{"numRemovedFiles":"1","numCopiedRows":"0","executionTimeMs":"1034","numDeletedRows":"1","scanTimeMs":"702","numAddedFiles":"1","rewriteTimeMs":"331"}}}
+{"remove":{"path":"part-00007-38b4ea9d-e09d-4d44-be3e-13872ff67769-c000.snappy.parquet","deletionTimestamp":1653462781037,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{},"size":1673}}
+{"add":{"path":"part-00000-d093479e-ffda-4a63-9fea-ade2827e028d-c000.snappy.parquet","partitionValues":{},"size":747,"modificationTime":1653462781000,"dataChange":true}}
