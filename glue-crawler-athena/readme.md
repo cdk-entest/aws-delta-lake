@@ -289,6 +289,8 @@ spark.sql("SELECT * FROM temp_view WHERE policy_id IN (100462, 100463, 100475)")
 
 ## Reference
 
+- [UPSERT using delta and aws glue blog](https://aws.amazon.com/blogs/big-data/handle-upsert-data-operations-using-open-source-delta-lake-and-aws-glue/)
+
 - [athena docs delta table](https://docs.aws.amazon.com/athena/latest/ug/delta-lake-tables.html)
 
 - [delta lake table aws blog](https://aws.amazon.com/blogs/big-data/introducing-native-delta-lake-table-support-with-aws-glue-crawlers/)
