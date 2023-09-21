@@ -26,9 +26,18 @@ aws s3 cp . s3://BUCKET/sample-delta-table/ --recursive
 
 ## Crawler
 
-Create a crawler to crawl the delta table, then can query using Athena as normal
+There are two options
+
+- Create native table
+- Create symlink table so both athena and redshift can query
+
+Option 1. Create a crawler to crawl the delta table, then can query using Athena as normal
 
 <img src="./assets/crawler_delta_table.png" width=70%></img>
+
+Option 2. Create a crawler to create a symlink table which redshift spectrum can query later on
+
+<img src="./assets/crawler_symb_table.png" width=70%></img>
 
 When the crawl complete we see a new table in Glue Catalog
 
